@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #dbe2e4;
+}
+.login{
+    width: 300px;
+    height: 500px;
+    background-color: #dbe2e4;
+    border-radius: 30px;
+    padding: 40px 30px 30px 30px ;
+    box-shadow: 10px 10px 15px #cdced1 ,-10px -10px 15px white;
+}
+.logo{
+    background: url("logo.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0  auto;
+    box-shadow: 0px 0px 6px rgb(87, 87, 87),
+    6px 6px 12px #b3b7c1, -6px 6px 12px white;
+    
+
+}
+.tital{
+    text-align: center;
+    padding-top: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.sub-tital{
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: .1em;
+}
+.form{
+    width: 100%;
+    padding: 45px 5px 5px 5px;
+}
+input{
+    border: none;
+    background: none;
+    outline:  none;
+    color: #555;
+    padding: 20px 10pc 20px 5px;
+}
+.username , .password{
+   margin-bottom: 20px;
+   border-radius: 20px;
+   box-shadow:inset 8px 8px 12px #cdced1 ,inset -8px -8px 12px white;
+}
+ .singup-button{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(220, 74, 74);
+    color:wheat;
+    box-shadow: 8px 8px 12px #aaaebb , -8px -8px 12px rgb(237, 231, 231);
+    transition: .3s linear;
+ }
+ .singup-button:hover{
+    background-color:  rgb(222, 19, 19) ;
+ }
+ .link{
+    padding-top: 10px;
+    text-align: center;
+ }
+ .link a{
+    text-decoration: none;
+    color: #88898d;
+    font-family: sans-serif;
+ }
